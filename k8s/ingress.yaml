@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: simple-python-app-ingress
+  namespace: default
+spec:
+  rules:
+  - host: python.rancher.alrib.com.br
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: simple-python-app-service
+            port:
+              number: 80
