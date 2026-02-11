@@ -1,4 +1,4 @@
-name: Build, Push, and Deploy to Kubernetes
+name: APP PYTHON - ALRIB TECNOLOGIA
 
 on:
   workflow_dispatch:
