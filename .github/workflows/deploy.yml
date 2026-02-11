@@ -1,10 +1,7 @@
 name: Build, Push, and Deploy to Kubernetes
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-push:
@@ -36,7 +33,6 @@ jobs:
   deploy-to-k8s:
     needs: build-and-push
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'  # Only deploy on main branch pushes
 
     steps:
       - name: Checkout code
