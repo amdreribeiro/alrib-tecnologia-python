@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Hello from Simple Python App! 🚀</h1><p>This app is deployed via GitHub Actions + Docker.</p>"
+    return "<h1>Bora buscar o pedro 🚀</h1><p> pAAAARTIUUUU + Docker.</p>"
 
 @app.route('/health')
 def health():
