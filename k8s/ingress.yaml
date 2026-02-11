@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   rules:
-  - host: python.rancher.alrib.com.br
+  - host: powerbi.rancher.alrib.com.br
     http:
       paths:
       - path: /
