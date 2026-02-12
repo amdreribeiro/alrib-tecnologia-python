@@ -6,7 +6,7 @@ metadata:
   labels:
     app: simple-python-app
 spec:
-  replicas: 2  # Scale as needed
+  replicas: 3  # Scale as needed
   selector:
     matchLabels:
       app: simple-python-app
