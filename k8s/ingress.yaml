@@ -1,8 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: simple-python-app-ingress
-  namespace: alrib-site
+  name: simple-python-app-ingress  
 spec:
   rules:
   - host: powerbi.app.alrib.com.br
