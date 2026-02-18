@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple-python-app
-  namespace: alrib-site  # Change if using a custom namespace
+  name: simple-python-app  
   labels:
     app: simple-python-app
 spec:
