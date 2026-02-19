@@ -1,7 +1,9 @@
 name: APP PYTHON - ALRIB TECNOLOGIA
 
 on:
- workflow_dispatch:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-push:
