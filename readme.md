@@ -12,7 +12,7 @@ simple-python-app/
 └── .github/workflows/deploy.yml
 ```
 
-https://github.com/jonathanbaraldi/simple-python-app
+https://github.com/jonathanbaraldi/simple-python-app 
 
 
 ## Setup Instructions (Step-by-Step, Updated for K8s)
